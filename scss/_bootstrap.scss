@@ -1,0 +1,52 @@
+@import "../vendor/Bootstrap/scss/mixins/banner";
+@include bsBanner("");
+
+
+// scss-docs-start import-stack
+// Configuration
+@import "../vendor/Bootstrap/scss/functions";
+@import "../vendor/Bootstrap/scss/variables";
+@import "../vendor/Bootstrap/scss/variables-dark";
+@import "../vendor/Bootstrap/scss/maps";
+@import "../vendor/Bootstrap/scss/mixins";
+@import "../vendor/Bootstrap/scss/utilities";
+
+// Layout & components
+@import "../vendor/Bootstrap/scss/root";
+@import "../vendor/Bootstrap/scss/reboot";
+@import "../vendor/Bootstrap/scss/type";
+@import "../vendor/Bootstrap/scss/images";
+@import "../vendor/Bootstrap/scss/containers";
+@import "../vendor/Bootstrap/scss/grid";
+@import "../vendor/Bootstrap/scss/tables";
+@import "../vendor/Bootstrap/scss/forms";
+@import "../vendor/Bootstrap/scss/buttons";
+@import "../vendor/Bootstrap/scss/transitions";
+@import "../vendor/Bootstrap/scss/dropdown";
+@import "../vendor/Bootstrap/scss/button-group";
+@import "../vendor/Bootstrap/scss/nav";
+@import "../vendor/Bootstrap/scss/navbar";
+@import "../vendor/Bootstrap/scss/card";
+@import "../vendor/Bootstrap/scss/accordion";
+@import "../vendor/Bootstrap/scss/breadcrumb";
+@import "../vendor/Bootstrap/scss/pagination";
+@import "../vendor/Bootstrap/scss/badge";
+@import "../vendor/Bootstrap/scss/alert";
+@import "../vendor/Bootstrap/scss/progress";
+@import "../vendor/Bootstrap/scss/list-group";
+@import "../vendor/Bootstrap/scss/close";
+@import "../vendor/Bootstrap/scss/toasts";
+@import "../vendor/Bootstrap/scss/modal";
+@import "../vendor/Bootstrap/scss/tooltip";
+@import "../vendor/Bootstrap/scss/popover";
+@import "../vendor/Bootstrap/scss/carousel";
+@import "../vendor/Bootstrap/scss/spinners";
+@import "../vendor/Bootstrap/scss/offcanvas";
+@import "../vendor/Bootstrap/scss/placeholders";
+
+// Helpers
+@import "../vendor/Bootstrap/scss/helpers";
+
+// Utilities
+@import "../vendor/Bootstrap/scss/utilities/api";
+// scss-docs-end import-stack
